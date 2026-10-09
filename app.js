@@ -22,6 +22,8 @@ const seed = [
 
 const readJSON = (k, fb) => { try { const v = JSON.parse(localStorage.getItem(k)); return (v === null || v === undefined) ? fb : v; } catch { return fb; } };
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+// نسخة مستقلة — بدونها data و published نفس المرجع والتعديل يمسح الاثنين
+const clone = (o) => JSON.parse(JSON.stringify(o));
 
 let published = seed;  // النسخة المنشورة (من releases.json)
 let data = seed;       // المعروض
@@ -217,8 +219,8 @@ document.getElementById('eAdd').onclick = () => {
   await loadPublished();
   const draft = readJSON(DRAFT_KEY, null);
   hasDraft = Array.isArray(draft);
-  data = hasDraft ? draft : published;
-  if (hasDraft && same()) { localStorage.removeItem(DRAFT_KEY); hasDraft = false; data = published; }
+  data = clone(hasDraft ? draft : published);
+  if (hasDraft && same()) { localStorage.removeItem(DRAFT_KEY); hasDraft = false; data = clone(published); }
   render(); syncBar();
   if (hasDraft) console.warn('⚠ انت شايف مسودة محلية — الناس لسا ما تشوفها. انسخ releases.json وارفعه.');
 })();
