@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SA7E Download</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="logo"><span class="logo-badge">S7</span> SA7E Download</div>
+  <div class="status"><span class="dot"></span> All systems operational</div>
+</header>
+
+<div id="draftBar" class="draft-bar hidden">
+  <span class="db-txt">📝 تعديلاتك محفوظة عندك فقط — الناس لسا ما تشوفها</span>
+  <div class="db-btns">
+    <button id="dbCopy">📋 نسخ releases.json</button>
+    <button id="dbDown">⬇ تحميل الملف</button>
+    <button id="dbBack" class="db-ghost">عرض النسخة المنشورة</button>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="pill">🛡 Official Downloads</div>
+  <h1>Download <span class="grad">SA7E Tools</span></h1>
+  <p class="sub">Clean builds. Verified releases. Everything you need in one place.</p>
+  <div class="stats">
+    <div><b id="stCount">0</b><span>RELEASES</span></div>
+    <div><b id="stLatest">-</b><span>LATEST</span></div>
+    <div><b id="stUpdated">-</b><span>UPDATED</span></div>
+  </div>
+  <button id="adminBtn" class="ghost">Admin</button>
+</section>
+
+<main id="siteMain">
+  <div class="section-head"><span>AVAILABLE RELEASES</span><div class="line"></div></div>
+  <div id="grid" class="grid"></div>
+</main>
+
+<section id="adminView" class="hidden">
+  <div class="section-head"><span>ADMIN PANEL</span><div class="line"></div><button id="backBtn" class="ghost">← الموقع</button></div>
+  <div class="panel">
+    <h3>➕ خانة جديدة</h3>
+    <div class="form grid2">
+      <div class="fld"><label>📝 اسم الإصدار (Title)</label><input id="eTitle" placeholder="SA7E Hax v4.7"></div>
+      <div class="fld"><label>🔢 النسخة</label><input id="eVersion" placeholder="v4.7"></div>
+      <div class="fld"><label>🏷 التصنيف</label><input id="eTag" placeholder="HAX"></div>
+      <div class="fld"><label>🔗 رابط التحميل</label><input id="eUrl" placeholder="https://..."></div>
+      <div class="fld"><label>📄 اسم الملف</label><input id="eFile" placeholder="sa7e-hax.rar"></div>
+      <div class="fld"><label>💾 الحجم</label><input id="eSize" placeholder="969.97 KB"></div>
+      <div class="fld full"><label>📃 الوصف</label><textarea id="eDesc" rows="3" placeholder="وصف قصير بالإنجليزي"></textarea></div>
+      <div class="fld full"><label>✨ المميزات (سطر لكل ميزة)</label><textarea id="eFeat" rows="4" placeholder="Full Customizable ESP&#10;Full Skins&#10;Full Memory Features"></textarea></div>
+      <div class="full"><button id="eAdd">➕ إضافة</button></div>
+    </div>
+    <h3>🗂 الخانات الحالية (عدّل واحفظ)</h3>
+    <div id="eList"></div>
+  </div>
+</section>
+
+<div id="modal" class="modal hidden">
+  <div class="box">
+    <h3 id="modalTitle">Admin login</h3>
+    <input id="fUser" placeholder="Username" autocomplete="off">
+    <input id="fPass" type="password" placeholder="Password">
+    <div class="row">
+      <button id="mOk">Login</button>
+      <button id="mClose" class="ghost">Close</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

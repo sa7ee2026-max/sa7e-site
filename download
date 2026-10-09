@@ -1,0 +1,17 @@
+# SA7E Site — عشان أي تعديل يظهر للناس فوراً (يستضيف Apache / استضافة عادية)
+<IfModule mod_headers.c>
+  Header always set Cache-Control "no-cache, no-store, must-revalidate"
+  Header always set Pragma "no-cache"
+  Header always set X-Content-Type-Options "nosniff"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive Off
+</IfModule>
+
+# releases.json لازم يوصل دائمًا بدون كاش
+<Files "releases.json">
+  <IfModule mod_headers.c>
+    Header always set Cache-Control "no-cache, no-store, must-revalidate"
+  </IfModule>
+</Files>

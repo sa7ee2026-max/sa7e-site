@@ -1,0 +1,70 @@
+[
+  {
+    "id": "hax",
+    "title": "SA7E Hax v4.6",
+    "version": "v4.6",
+    "tag": "HAX",
+    "desc": "Best & smoothest Hax, optimized for weak devices.",
+    "feat": [
+      "Full Customizable ESP",
+      "Full Skins (Hair, Hat, Face, Suits, Pets)",
+      "Full Memory Features"
+    ],
+    "file": "sa7e-hax.rar",
+    "size": "969.97 KB",
+    "updated": "September 12th, 2026",
+    "downloads": 835,
+    "url": "#"
+  },
+  {
+    "id": "bypass",
+    "title": "SA7E Bypass v4.6",
+    "version": "v4.6",
+    "tag": "BYPASS",
+    "desc": "Lightweight and silent. Cuts through restrictions without noise.",
+    "feat": [
+      "Safe On Main Account",
+      "Bypasses Emulator Check",
+      "Safe with ESP / Aimbot / Skins"
+    ],
+    "file": "sa7e-bypass.rar",
+    "size": "5.01 MB",
+    "updated": "September 12th, 2026",
+    "downloads": 633,
+    "url": "#"
+  },
+  {
+    "id": "blocker",
+    "title": "SA7E GameLoop Blocker",
+    "version": "v2.0",
+    "tag": "GAMELOOP",
+    "desc": "Stop forced GameLoop updates. Firewall + file lock, one click.",
+    "feat": [
+      "Block updater only",
+      "Full Shield mode",
+      "One-click restore"
+    ],
+    "file": "GameLoopBlocker.exe",
+    "size": "64.4 MB",
+    "updated": "October 8th, 2026",
+    "downloads": 0,
+    "url": "#"
+  },
+  {
+    "id": "recorder",
+    "title": "NVIDIA SA7E Recorder",
+    "version": "v1.0",
+    "tag": "RECORDER",
+    "desc": "Screen recording for weak GPUs. Auto record + 15-min replay buffer.",
+    "feat": [
+      "Auto record on open",
+      "Save last 15 minutes",
+      "Same-as-screen quality"
+    ],
+    "file": "NvidiaSA7E.exe",
+    "size": "152 KB",
+    "updated": "October 8th, 2026",
+    "downloads": 0,
+    "url": "#"
+  }
+]
