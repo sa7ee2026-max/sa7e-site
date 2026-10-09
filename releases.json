@@ -1,5 +1,23 @@
 [
   {
+    "id": "r1791562202014",
+    "title": "Gameloop 32-bit",
+    "version": "32 bit",
+    "tag": "NEW",
+    "desc": "The emulator supports tools",
+    "feat": [
+      "Full 32-bit Gameloop installation package — clean and ready to run.",
+      "32-bit Architecture Support",
+      "Full Gameloop Installation",
+      "Compatible with Low-End PCs"
+    ],
+    "file": "Gameloop 32-bit",
+    "size": "3.65",
+    "updated": "October 9, 2026",
+    "downloads": 0,
+    "url": "https://www.mediafire.com/file/ozpejgmth37v9yv/32+bit+GLP_installer.exe/file"
+  },
+  {
     "id": "hax",
     "title": "SA7E Hax v4.6",
     "version": "v4.6",
@@ -48,23 +66,6 @@
     "size": "64.4 MB",
     "updated": "October 8th, 2026",
     "downloads": 0,
-    "url": "#"
-  },
-  {
-    "id": "recorder",
-    "title": "NVIDIA SA7E Recorder",
-    "version": "v1.0",
-    "tag": "RECORDER",
-    "desc": "Screen recording for weak GPUs. Auto record + 15-min replay buffer.",
-    "feat": [
-      "Auto record on open",
-      "Save last 15 minutes",
-      "Same-as-screen quality"
-    ],
-    "file": "NvidiaSA7E.exe",
-    "size": "152 KB",
-    "updated": "October 8th, 2026",
-    "downloads": 0,
-    "url": "#"
+    "url": "https://www.mediafire.com/file/sojthm59qsi9zm3/GameLoopBlocker(2).exe/file"
   }
 ]
