@@ -1,5 +1,39 @@
 [
   {
+    "id": "r1792004187565",
+    "title": "SA7E CLENER",
+    "version": "4.6",
+    "tag": "CLENER",
+    "desc": "SA7E CLENER",
+    "feat": [
+      "Reset Gest",
+      "Reset IP",
+      "Delete temp file"
+    ],
+    "file": "SA7E CLENER",
+    "size": "",
+    "updated": "October 14, 2026",
+    "downloads": 0,
+    "url": "https://www.mediafire.com/file/dhbzvhral824ftn/SA7E_Tools.exe/file"
+  },
+  {
+    "id": "r1792003816773",
+    "title": "Exterenal Hax 4.6",
+    "version": "4.6",
+    "tag": "HAX",
+    "desc": "Best & smoothest Hax, optimized for weak devices.",
+    "feat": [
+      "Full Customizable ESP",
+      "Full Skins (Hair, Hat, Face, Suits, Pets)",
+      "Full Memory Features"
+    ],
+    "file": "Exterenal Hax 4.6",
+    "size": "969.6",
+    "updated": "October 14, 2026",
+    "downloads": 0,
+    "url": "https://files.catbox.moe/5fr4u0.rar"
+  },
+  {
     "id": "r1791562202014",
     "title": "Gameloop 32-bit",
     "version": "32 bit",
